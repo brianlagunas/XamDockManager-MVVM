@@ -1,0 +1,30 @@
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\XamDockManager-MVVM.exe.config
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\XamDockManager-MVVM.exe
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\XamDockManager-MVVM.pdb
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.csprojResolveAssemblyReference.cache
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\MainWindow.g.cs
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\App.g.cs
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM_MarkupCompile.cache
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM_MarkupCompile.lref
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\MainWindow.baml
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.g.resources
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager_MVVM.Properties.Resources.resources
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.csproj.GenerateResource.Cache
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.exe.licenses
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.exe
+C:\Users\blagunas\Documents\Projects\Blog Posts\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.pdb
+C:\Users\blagunas\Documents\GitHub\XamDockManager-MVVM\XamDockManager-MVVM\bin\Debug\XamDockManager-MVVM.exe.config
+C:\Users\blagunas\Documents\GitHub\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.exe
+C:\Users\blagunas\Documents\GitHub\XamDockManager-MVVM\XamDockManager-MVVM\obj\Debug\XamDockManager-MVVM.pdb

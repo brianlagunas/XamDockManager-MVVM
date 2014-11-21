@@ -1,0 +1,91 @@
+﻿<Window x:Class="XamDockManager_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:igWPF="http://schemas.infragistics.com/xaml/wpf" 
+        xmlns:local="clr-namespace:XamDockManager_MVVM"
+        Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+
+        <DataTemplate x:Key="HeaderTemplate">
+            <TextBlock Text="{Binding}" FontSize="18" FontWeight="Bold" />
+        </DataTemplate>
+
+        <DataTemplate x:Key="PersonTemplate">
+            <Border BorderBrush="Blue" BorderThickness="2">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="First Name: " />
+                    <TextBox Grid.Column="1" Text="{Binding FirstName}" />
+                    <TextBlock Grid.Row="1" Text="Last Name: " />
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding LastName}" />
+                    <TextBlock Grid.Row="2" Text="Age: " />
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Age}" />
+                </Grid>
+            </Border>
+        </DataTemplate>
+
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Menu>
+            <MenuItem Header="Insert" Command="{Binding InsertCommand}" />
+            <MenuItem Header="Remove" Command="{Binding RemoveCommand}" CommandParameter="{Binding ActivePane.DataContext, ElementName=_dock}" />
+        </Menu>
+
+        <igWPF:XamDockManager x:Name="_dock" Grid.Row="1" >
+            <igWPF:XamDockManager.Panes>
+                <igWPF:SplitPane>
+                    <igWPF:TabGroupPane x:Name="_dynamicTab">
+                        <i:Interaction.Behaviors>
+                            <local:TabGroupPaneItemsSourceBehavior HeaderMemberPath="FullName"
+                                                                   HeaderTemplate="{StaticResource HeaderTemplate}"
+                                                                   ItemsSource="{Binding People}"
+                                                                   ItemTemplate="{StaticResource PersonTemplate}"/>
+                        </i:Interaction.Behaviors>
+                    </igWPF:TabGroupPane>
+                </igWPF:SplitPane>
+            </igWPF:XamDockManager.Panes>
+        </igWPF:XamDockManager>
+
+    </Grid>
+</Window>
+
+
+
+<!-- You don't have to use the ItemTemplate property. You can also provide implicit DataTemplates based on type for collections containing multiple types.-->
+<!--<DataTemplate DataType="{x:Type local:Person}">
+            <Border BorderBrush="Red" BorderThickness="2">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="First Name: " />
+                    <TextBox Grid.Column="1" Text="{Binding FirstName}" />
+                    <TextBlock Grid.Row="1" Text="Last Name: " />
+                    <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding LastName}" />
+                    <TextBlock Grid.Row="2" Text="Age: " />
+                    <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Age}" />
+                </Grid>
+            </Border>
+        </DataTemplate>-->
